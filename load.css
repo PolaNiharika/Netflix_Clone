@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  color: green;
+}
+.blur {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow-y: hidden;
+}
+.motion {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 210px;
+  left: 530px;
+  height: 200px;
+  width: 230px;
+  overflow: hidden;
+  animation: blur 1.5s linear 0s;
+}
+@keyframes blur {
+  0% {
+    width: 40px;
+    left: 531px;
+    animation-delay: 0.5s;
+  }
+  25% {
+    width: 85px;
+    left: 529px;
+  }
+  50% {
+    width: 120px;
+  }
+  75% {
+    width: 160px;
+  }
+  90% {
+    width: 180px;
+  }
+  100% {
+    width: 230px;
+  }
+}
+.motion h1 {
+  color: red;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 5px;
+}
+#main-class {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.class {
+  height: 90px;
+  width: 90px;
+  color: white;
+  background-color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 330px;
+  left: 500px;
+  z-index: 1;
+  border-radius: 20px;
+  border: none;
+}
+.class:focus {
+  outline: none;
+}
+.class1 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(59, 18, 18);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  position: relative;
+  top: 110px;
+  left: 500px;
+  z-index: 1;
+  border-radius: 20px;
+  border: none;
+}
+.class2:focus {
+  outline: none;
+}
+.class2 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 400px;
+  z-index: 1;
+  border-radius: 20px;
+  border: none;
+}
+.class1:focus {
+  outline: none;
+}
+.class3 {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(15, 42, 85);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 60px;
+  left: 400px;
+  z-index: 1;
+  border-radius: 20px;
+  border: none;
+}
+.class3:focus {
+  outline: none;
+}
+.class h2 {
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.class1 h2 {
+  padding-top: 50px;
+  padding-left: 5px;
+}
+.class2 h2 {
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.class3 h2 {
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.class3 h2 {
+  padding-top: 50px;
+  padding-left: 10px;
+}

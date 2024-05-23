@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./load.css">
+    <title>Document</title>
+</head>
+<body onload="visible()">
+    <div class="blur" style="display:none" id="loader">
+         <div class="motion">
+             <h1>NETFLIX</h1>
+         </div>
+    </div>
+    <div class="minclass" id="main-class">
+        <form action="#">
+            <button class="class" type="submit">
+                  <h2>USER</h2>
+              </button>    
+          </form>   
+        <form action="#">
+            <button class="class1" type="submit">
+                  <h2>USER</h2>
+              </button>    
+          </form>   
+        <form action="#">
+          <button class="class2" type="submit">
+                <h2>USER</h2>
+            </button>    
+        </form>        
+        <form action="./cnetflix.html">
+            <button type="submit" class="class3"  >
+                 <h2>click</h2>
+    
+            </button>
+    </form>
+    </div>
+    
+    <script type="text/Javascript">
+     function visible(){
+        document.getElementById('loader').style.display="block";
+        document.getElementById('main-class').style.display="none";
+
+        
+
+         var var1=setTimeout(showPage,3000);
+     }
+    function showPage(){
+
+            var x=document.getElementById('main-class');
+            document.getElementById('loader').style.display="none";
+            x.style.display="block";
+
+
+
+     }
+
+    </script>
+</body>
+</html>
